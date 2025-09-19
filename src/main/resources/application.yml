@@ -1,0 +1,18 @@
+spring:
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    url: jdbc:postgresql://localhost:5432/postgres
+    username: postgres
+    password: postgres
+
+  #mvc:
+    #static-path-pattern: /static/**
+
+  #resources:
+    #static-location:
+     # - file:///C:/upload/homepage/image
+     # - file:///C:/upload/homepage/file
+
+file:
+  upload: C:/upload/homepage
+
